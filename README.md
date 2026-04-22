@@ -37,9 +37,9 @@ All figures are saved automatically when the notebook runs:
 
 ### Hardware
 - **GPU required.** All experiments were run on an NVIDIA T4 GPU (Google Colab). Expected runtime:
-  - Experiment 1 (1 epoch × 2 runs): ~10 min
-  - Experiment 2 (3 epochs × 2 runs): ~30 min
-  - Experiment 3 (3 epochs × 3 α values): ~45 min
+  - Experiment 1 (1 epoch × 2 runs): ~20 min
+  - Experiment 2 (3 epochs × 2 runs): ~90 min
+  - Experiment 3 (3 epochs × 3 α values): ~190 min
   - **Total: ~85 minutes on a T4 GPU**
 
 ### Software Dependencies
