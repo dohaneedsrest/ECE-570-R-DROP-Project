@@ -147,13 +147,13 @@ R-Drop reduces the epoch-1 generalization gap by **55% relative** (0.012 vs. 0.0
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| `rdrop_loss()` | Student-written | Implements Eq. 4 from Liang et al. 2021 |
-| `train_and_track()` | Student-written | Unified training loop with per-epoch metric tracking |
-| `train_one_epoch_rdrop()` | Student-written | Single-epoch two-pass R-Drop training |
-| `evaluate()` | Student-written | Inference-mode accuracy computation |
+| `rdrop_loss()` | Implemented by Author Doha Hafez | Implements Eq. 4 from Liang et al. 2021 |
+| `train_and_track()` | Implemented by Author Doha Hafez | Unified training loop with per-epoch metric tracking |
+| `train_one_epoch_rdrop()` | Implemented by Author Doha Hafez | Single-epoch two-pass R-Drop training |
+| `evaluate()` | Implemented by Author Doha Hafez | Inference-mode accuracy computation |
 | Dataset loading | Adapted from HuggingFace `datasets` docs | Standard GLUE loading pattern |
 | DistilBERT loading | Adapted from HuggingFace `transformers` docs | Standard `AutoModel` pattern |
-| Plotting | Student-written | Using matplotlib |
+| Plotting | Implemented by Author Doha Hafez | Using matplotlib |
 
 **LLM assistance:** Claude (Anthropic) was used for code structuring suggestions, markdown documentation, and result interpretation. All algorithmic implementations were written and verified by the student. See the final notebook cell for full acknowledgement.
 
