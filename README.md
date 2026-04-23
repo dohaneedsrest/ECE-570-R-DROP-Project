@@ -70,7 +70,7 @@ Output figures saved automatically when the notebook runs:
 
 The notebook installs all dependencies in **Section 1** automatically. Dataset and model weights (~270 MB total) download automatically on first run.
 
-> **Note:** Running the full notebook end-to-end takes approximately **6 hours** on a T4 GPU. If you only want to verify a subset of experiments, you can run Sections 1–3 (Experiment 1, ~20 min) independently before committing to the full run.
+> **Note:** Running the full notebook end-to-end takes approximately **6 hours** on a T4 GPU. If you only want to verify a subset of experiments, you can run Sections 1–3 (Experiment 1, ~20 min) independently before committing to the full run or obsereve the markdown cells for the analyzing expirements' outputs and code cells' outputs already in the notebook that could be seen if you open the notebook on Colab.
 
 ### Option B — Local Setup
 
